@@ -54,6 +54,8 @@ A full-stack task management system built using Spring Boot, React, and MySQL. T
 * Assign tasks to users
 * Filter tasks by status and assigned user
 * Track `createdBy` and `assignedTo` fields
+### ERD 
+<img width="407" height="192" alt="task erd " src="https://github.com/user-attachments/assets/c1c65ea7-6de9-49b1-84ca-94046b0a34a7" />
 
 ## Setup Instructions
 
@@ -166,34 +168,46 @@ CMD ["serve", "-s", "build", "-l", "3000"]
 ### docker-compose.yml
 
 ```
-version: "3.8"
+version: "3.9"
+
 services:
-  mysql:
+  db:
     image: mysql:8
+    container_name: mysql-db
+    restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: Cloud@123$
       MYSQL_DATABASE: taskdb
     ports:
       - "3307:3306"
     volumes:
-      - mysql-data:/var/lib/mysql
+      - mysql_data:/var/lib/mysql
+      - ./taskdb.sql:/docker-entrypoint-initdb.d/taskdb.sql
 
   backend:
     build: ./teamflow-backend/teamflow-backend
+    container_name: spring-backend
     ports:
       - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/taskdb
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Cloud@123$
     depends_on:
-      - mysql
+      - db
+    # optional: remove command if using Dockerfile CMD
+    # command: >
 
   frontend:
-    build: ./frontend
+    build: ./taskmanage/my-app
+    container_name: react-frontend
     ports:
       - "3000:3000"
     depends_on:
       - backend
 
 volumes:
-  mysql-data:
+  mysql_data:
 ```
 
 ## API Endpoints
