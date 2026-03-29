@@ -58,6 +58,7 @@ A full-stack task management system built using Spring Boot, React, and MySQL. T
 <img width="407" height="192" alt="task erd " src="https://github.com/user-attachments/assets/c1c65ea7-6de9-49b1-84ca-94046b0a34a7" />
 
 ## Project Structure
+```
 TASK-MANAGEMENT/
 ├─ taskmanage/
 │ └─ my-app/
@@ -98,7 +99,7 @@ TASK-MANAGEMENT/
 │ ├─ mvnw.cmd
 │ └─ pom.xml
 └─ docker-compose.yml
-
+```
 ## Setup Instructions
 
 ### Clone the Repository
