@@ -249,7 +249,35 @@ Workflow file location: `.github/workflows/docker.yml`
 * JWT-based authentication
 * Role-based authorization
 * Password hashing using BCrypt
+## Sample Users
 
+You can use the following sample users to test the application:
+
+| Role  | Username        | Password |
+|-------|----------------|----------|
+| Admin | admin@gmail.com | admin123 |
+| User  | theeksha@gmail.com | theeksha123  |
+
+
+---
+
+## Demo Video
+
+Watch a demo of the application:
+
+[![Watch the demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)
+
+> Replace `YOUTUBE_VIDEO_ID` with your actual video ID from YouTube.
+
+---
+
+## Screenshots
+![WhatsApp Image 2026-03-29 at 12 22 41 PM](https://github.com/user-attachments/assets/45408ec9-5b75-449a-91fd-df7bcd87186a)
+
+
+
+
+> Add as many screenshots as needed, updating the paths and filenames accordingly.
 ## Notes
 
 * MySQL runs inside a Docker container
