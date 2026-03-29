@@ -112,13 +112,29 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 ### Frontend Dockerfile
 
 ```
-FROM node:18
+# Build stage
+FROM node:20-alpine AS build
+
 WORKDIR /app
+
 COPY package*.json ./
 RUN npm install
+
 COPY . .
+RUN npm run build
+
+# Production stage
+FROM node:20-alpine
+
+WORKDIR /app
+
+COPY --from=build /app/build ./build
+
+RUN npm install -g serve
+
 EXPOSE 3000
-CMD ["npm", "start"]
+
+CMD ["serve", "-s", "build", "-l", "3000"]
 ```
 
 ### docker-compose.yml
