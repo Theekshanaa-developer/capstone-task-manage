@@ -1,7 +1,43 @@
 # Task Manager Application (Spring Boot + React + Docker + CI/CD)
 
 A full-stack task management system built using Spring Boot, React, and MySQL. The application includes spring security, role-based access control, and a fully containerized setup with Docker and CI/CD using GitHub Actions.
+## 📑 Table of Contents
 
+1. [Project Overview](#project-overview)  
+2. [Tech Stack](#tech-stack)  
+   - [Backend](#backend)  
+   - [Frontend](#frontend)  
+   - [DevOps](#devops)  
+3. [Features](#features)  
+   - [Authentication](#authentication)  
+   - [Role-Based Access](#role-based-access)  
+     - [Admin](#admin)  
+     - [User](#user)  
+   - [Task Management](#task-management)  
+4. [ERD](#erd)  
+5. [Project Structure](#project-structure)  
+6. [Setup Instructions](#setup-instructions)  
+   - [Clone the Repository](#clone-the-repository)  
+   - [Run Locally](#run-locally)  
+     - [Backend](#backend-1)  
+     - [Frontend](#frontend-1)  
+   - [Run with Docker](#run-with-docker)  
+7. [Docker Configuration](#docker-configuration)  
+   - [Backend Dockerfile](#backend-dockerfile)  
+   - [Frontend Dockerfile](#frontend-dockerfile)  
+   - [docker-compose.yml](#docker-composeyml)  
+8. [API Endpoints](#api-endpoints)  
+   - [Authentication](#authentication-1)  
+   - [Tasks](#tasks)  
+   - [Users](#users)  
+9. [CI/CD Pipeline](#cicd-pipeline)  
+10. [Security](#security)  
+11. [Sample Users](#sample-users)  
+12. [Demo Video](#demo-video)  
+13. [Screenshots](#screenshots)  
+14. [Notes](#notes)  
+15. [Author](#author)  
+16. [Summary](#summary)
 ## Tech Stack
 
 ### Backend
