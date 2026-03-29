@@ -1,0 +1,56 @@
+/* Center whole container */
+.user-container {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* Table styling */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Header */
+.user-table th {
+  background-color: #0f172a;
+  color: white;
+  padding: 12px;
+}
+
+/* Rows */
+.user-table td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Hover effect */
+.user-table tr:hover {
+  background-color: #f9fafb;
+}
+
+/* Actions (buttons container) */
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;  /* 🔥 spacing between buttons */
+}
+
+/* Buttons */
+.actions button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3b82f6;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.actions button:hover {
+  background-color: #2563eb;
+}

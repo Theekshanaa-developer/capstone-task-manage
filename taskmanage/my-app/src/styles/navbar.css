@@ -1,0 +1,58 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #0f172a;
+  color: white;
+  padding: 15px 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Logo */
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* Nav links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: auto; /* ensures right alignment */
+}
+
+/* Links */
+.nav-links a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 16px;  
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Hover color */
+.nav-links a:hover {
+  color: #3b82f6;
+}
+
+/* Underline animation */
+.nav-links a::after {
+ 
+  background-color: #3b82f6;
+  transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
