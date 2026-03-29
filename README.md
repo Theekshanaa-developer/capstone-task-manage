@@ -57,6 +57,48 @@ A full-stack task management system built using Spring Boot, React, and MySQL. T
 ### ERD 
 <img width="407" height="192" alt="task erd " src="https://github.com/user-attachments/assets/c1c65ea7-6de9-49b1-84ca-94046b0a34a7" />
 
+### Project Structure
+TASK-MANAGEMENT/
+├─ taskmanage/
+│ └─ my-app/
+│ ├─ public/
+│ └─ src/
+│ ├─ api/
+│ ├─ components/
+│ ├─ images/
+│ ├─ pages/
+│ ├─ styles/
+│ ├─ App.css
+│ ├─ App.js
+│ ├─ App.test.js
+│ ├─ index.js
+│ ├─ main.jsx
+│ ├─ reportWebVitals.js
+│ └─ setupTests.js
+│ ├─ .dockerignore
+│ ├─ .dockerignore.txt
+│ ├─ .gitignore
+│ ├─ Dockerfile
+│ ├─ package-lock.json
+│ ├─ package.json
+│ └─ README.md
+├─ teamflow-backend/
+│ ├─ .idea/
+│ └─ teamflow-backend/
+│ ├─ .mvn/
+│ ├─ src/
+│ │ ├─ main/
+│ │ └─ test/
+│ ├─ target/
+│ ├─ .gitattributes
+│ ├─ .gitignore
+│ ├─ Dockerfile
+│ ├─ HELP.md
+│ ├─ mvnw
+│ ├─ mvnw.cmd
+│ └─ pom.xml
+└─ docker-compose.yml
+
 ## Setup Instructions
 
 ### Clone the Repository
@@ -279,13 +321,6 @@ Watch a demo of the application:
 ![WhatsApp Image 2026-03-29 at 12 22 23 PM](https://github.com/user-attachments/assets/5ac90b4a-4626-4d52-89ce-88f8524647a8)
 ![WhatsApp Image 2026-03-29 at 12 22 34 PM](https://github.com/user-attachments/assets/40b60a79-34bf-4077-a3a7-facbf73f4612)
 
-
-
-
-
-
-
-> Add as many screenshots as needed, updating the paths and filenames accordingly.
 ## Notes
 
 * MySQL runs inside a Docker container
