@@ -31,7 +31,7 @@ A full-stack task management system built using Spring Boot, React, and MySQL. T
 ### Authentication
 
 * User registration and login
-* JWT-based authentication
+* Spring Security authentication
 * Password encryption using BCrypt
 
 ### Role-Based Access
@@ -289,7 +289,7 @@ Workflow file location: `.github/workflows/docker.yml`
 
 ## Security
 
-* JWT-based authentication
+* Spring security-based authentication
 * Role-based authorization
 * Password hashing using BCrypt
 ## Sample Users
