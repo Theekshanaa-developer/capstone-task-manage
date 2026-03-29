@@ -119,7 +119,7 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-> **Note:** Make sure MySQL is running locally or update `application.properties` with correct DB credentials.
+> 
 
 #### Frontend
 
@@ -301,16 +301,6 @@ You can use the following sample users to test the application:
 | Admin | admin@gmail.com | admin123 |
 | User  | theeksha@gmail.com | theeksha123  |
 
-
----
-
-## Demo Video
-
-Watch a demo of the application:
-
-[![Watch the demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)
-
-> Replace `YOUTUBE_VIDEO_ID` with your actual video ID from YouTube.
 
 ---
 
