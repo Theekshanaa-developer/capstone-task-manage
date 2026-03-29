@@ -272,9 +272,14 @@ Watch a demo of the application:
 ---
 
 ## Screenshots
-![WhatsApp Image 2026-03-29 at 12 22 41 PM](https://github.com/user-attachments/assets/45408ec9-5b75-449a-91fd-df7bcd87186a)
-![WhatsApp Image 2026-03-29 at 12 22 23 PM](https://github.com/user-attachments/assets/5ac90b4a-4626-4d52-89ce-88f8524647a8)
 ![WhatsApp Image 2026-03-29 at 12 22 34 PM(1)](https://github.com/user-attachments/assets/8d892792-0143-450b-910e-c02374601105)
+![WhatsApp Image 2026-03-29 at 12 22 41 PM](https://github.com/user-attachments/assets/45408ec9-5b75-449a-91fd-df7bcd87186a)
+![WhatsApp Image 2026-03-29 at 12 22 36 PM](https://github.com/user-attachments/assets/59f5363d-30d0-45fa-a813-d83d38cb8687)
+
+![WhatsApp Image 2026-03-29 at 12 22 23 PM](https://github.com/user-attachments/assets/5ac90b4a-4626-4d52-89ce-88f8524647a8)
+![WhatsApp Image 2026-03-29 at 12 22 34 PM](https://github.com/user-attachments/assets/40b60a79-34bf-4077-a3a7-facbf73f4612)
+
+
 
 
 
